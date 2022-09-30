@@ -85,11 +85,12 @@ a, a:hover{
 	color: #fff;
 }
 .inner-banner p{
-	font-size: 18px;
-	line-height: 28px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	color: #999999;
+	font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #767677;
+    font-family: 'Source Sans Pro';
 }
 .inner-button{
 	width: 100%;
@@ -148,11 +149,12 @@ a, a:hover{
 }
 .inner-feature .icon{
 	width: 85px;
-	height: 85px;
-	line-height: 85px;
-	border-radius: 100%;
-	margin: 0px auto;
-	border: 1px solid #e1e1e1; 
+    height: 85px;
+    line-height: 94px;
+    border-radius: 100%;
+    margin: auto;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 25px; 
 }
 .inner-feature .icon .fa{
 	font-size: 28px;
@@ -529,6 +531,7 @@ a, a:hover{
 	background: #008ed6;
 	border: 1px solid #0086d6;
 	border-radius: 2px;
+	margin: 0px 0px 0px 190px;
 	transition: 1s;
 } 
 .contact-form .submit .btn-primary:hover,
@@ -547,8 +550,14 @@ a, a:hover{
 	text-align: center;
 }
 .footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
 	color: #414045;
-	margin-bottom: 40px;
+	margin: 0px 0px 40px 11px;
+}
+.footer ul{
+	margin-bottom: 0px;
 }
 .footer .social-icons li{
 	list-style: none;
